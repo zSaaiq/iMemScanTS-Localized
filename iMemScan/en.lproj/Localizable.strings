@@ -27,5 +27,6 @@
 "Nearby Search" = "<>";
 "Nearby" = "Search range";
 "Add to" = "Add";
-"Select First Half" = "<";
-"Select Second Half" = ">";
+"Select First Half" = " < ";
+"Select Second Half" = " > ";
+"Numeric Search" = "Search";

@@ -42,8 +42,8 @@
 "Nearby Search" = "<>";
 "Clear Results" = "Ergebnisse Löschen";
 "Confirm" = "Bestätigen";
-"Select First Half" = "<";
-"Select Second Half" = ">";
+"Select First Half" = " < ";
+"Select Second Half" = " > ";
 "Please click clear. I already have 1 million data and you are searching for someone nearby." = "Bitte klicken Sie auf „Löschen“. Ich habe bereits 1 Million Daten und Sie suchen weitere Daten in der Nähe.";
 "Proximity search" = "Umgebungssuche";
 "Complete change" = "Speichern";
@@ -108,7 +108,7 @@
 "Process" = "Prozesse";
 "Cancel" = "Abbrechen";
 "%ld Seconds" = "%ld Sekunden";
-"Numeric Search" = "Wertsuche";
+"Numeric Search" = "Suche";
 "" = "";
 "" = "";
 "" = "";
