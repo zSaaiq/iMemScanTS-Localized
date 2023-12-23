@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  iMemScan
+
+  Created by yiming on 2021/8/19.
+  
+*/
+
+"授权状态" = "VIP status";
+"设备已冻结" = "Ban";
+"设备标识" = "Serial number";
+"购买授权" = "Buy VIP";
+"版本" = "Version";
+"卸载应用" = "Uninstall app";
+"信息" = "Info";
+"购买" = "Buy";
+"卸载" = "Uninstall";
+"暂无更新" = "Update isn’t available";
+"您当前版本无需更新" = "You are using latest version";
+"确定要卸载本应用吗？" = "Are you sure you want to uninstall this app?";
+"确定卸载" = "Complete Uninstallation";
+"取消" = "Cancel";
+"复制设备码成功" = "Copy device code successfully";
