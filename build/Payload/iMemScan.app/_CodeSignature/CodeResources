@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		lyxz3riTMECPEqHxQ7wU2ME8gSc=
+		1dyntI2y+10GHOzuy+oor9SHPfE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -39,6 +39,10 @@
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
 		d5kpSvkLrrXawIJ5jdzm2P2Yen4=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		VE0jgjT5bpc9X9W2GivG5Y65BPE=
 		</data>
 		<key>LocalFiles/config.txt</key>
 		<data>
@@ -114,11 +118,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jCz8XuEjLHKTZvNN+1aYZShw7to=
+			7y9pSYTpcJuWkeEOiGcEZwU2kM8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -127,7 +135,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eQhdU6yoxz8Ii1soTAtMllwPSio=
+			RYtOrMcTv/JgL2Qp3jWEjo4y2v0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -171,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BBad0sVi8wgw+M5r6M3ZldH+q9bYKmCnf5TziP3ncOQ=
+			t5pUVCFQhT715WxkCh/wuF3RboNWg9kBAs/Sp8ZA8SY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -309,7 +317,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ByUziYd2Lhb9mRZ5frPYVPL4yJBU+AHFfOchJe76Eyk=
+			xVT/SLHfs8a7Dx1Rn9GA1qaiPGZ+8z0KvVFmYisxUa8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -318,7 +326,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0qY/47Lu8qLF4nsNvy8q9XMEHxXMP864TbFUTm0wfE=
+			0xygJPn7FaEaba+WDNchyCj/mNTyxxLtOMYuQCKxgnA=
 			</data>
 			<key>optional</key>
 			<true/>
