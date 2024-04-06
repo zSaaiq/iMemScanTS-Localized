@@ -21,22 +21,7 @@ all:
 
 	# lol
 	find . -name ".DS_Store" -delete
-	@cp -r layout build
-	@mkdir -p build/layout/Applications
-	# make deb
-	@cp -R build/Payload/iMemScan.app build/layout/Applications/iMemScan.app
-	dpkg-deb --build build/layout
-	@mv build/layout.deb build/AppIndex.deb
 
-	@rm -rf build/layout/Applications
-	# rootless deb
-	@mkdir -p build/layout/var/jb/Applications
-	@mv build/Payload/iMemScan.app build/layout/var/jb/Applications/iMemScan.app
-	dpkg-deb --build build/layout
-	@mv build/layout.deb build/AppIndexRootless.deb
-	
-	@rm -rf build/Payload
-	@rm -rf build/layout
+	@rm -rf build
 
-	@echo TrollStore .tipa written to build/AppIndexTrollStore.tipa
-	@echo Jailbroken .deb written to build/AppIndex.deb
+	@echo TrollStore .tipa written to build/iMemScanTS.tipa

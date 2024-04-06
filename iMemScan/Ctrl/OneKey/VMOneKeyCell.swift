@@ -68,7 +68,7 @@ class VMOneKeyCell: UITableViewCell {
                 let str = textLabel?.text
                 let str2 = str?.suffix(2)
                 
-                if (str2 == "定时") {
+                if (str2 == "定时") { 
                     timer = DispatchSource.makeTimerSource(queue: DispatchQueue.global())
                     timer?.schedule(deadline: .now(), repeating: .seconds(VMTool.share().duration()))
                     

@@ -144,9 +144,9 @@ class VMOneKeyAddCtrl: UIViewController, UITextFieldDelegate, UITableViewDelegat
             
             showPromotion(title: "修改规则", promotion: warning, secondaryTitle: "选择您的修改方式")
                 .appearance(promotionStyle: .color(.systemPink), placeholder: "")
-                .confirm(title: "确定", style: .primary, fill: false, cancelTitle: nil) { indexs in
+                .confirm(title: NSLocalizedString("Sure", comment: ""), style: .primary, fill: false, cancelTitle: nil) { indexs in
                     model.indexs = indexs
-                    showAlert("数值修改", holder: "", btnTitle: "修改")
+                    showAlert(NSLocalizedString("Value modification", comment: ""), holder: "", btnTitle: NSLocalizedString("Revise", comment: ""))
                     
             }.shouldBecomeFirstResponder()
             
@@ -366,7 +366,7 @@ class VMOneKeyAddCtrl: UIViewController, UITextFieldDelegate, UITableViewDelegat
         }
         
         if model.type == VMOneKeySubType.clear {
-            cell?.textLabel?.text = "清除结果"
+            cell?.textLabel?.text = NSLocalizedString("Clear results",comment: "")
             cell?.detailTextLabel?.text = ""
         }
         
@@ -385,11 +385,11 @@ class VMOneKeyAddCtrl: UIViewController, UITextFieldDelegate, UITableViewDelegat
             model.typeName = kTitle1
 
             addModel = (model)
-            showAlert(kTitle1, holder: model.value, btnTitle: "搜索")
+            showAlert(kTitle1, holder: model.value, btnTitle: NSLocalizedString("Search",comment: ""))
         }
         
         else if title == kTitle2 {
-            UIAlertController.showAlert(kTitle2, message: "", holder: model.value, buttonTitle: "确定", handler: { [self] text in
+            UIAlertController.showAlert(kTitle2, message: "", holder: model.value, buttonTitle: NSLocalizedString("Sure",comment: ""), handler: { [self] text in
 
                 if text!.count == 0 {
                     return
@@ -410,7 +410,7 @@ class VMOneKeyAddCtrl: UIViewController, UITextFieldDelegate, UITableViewDelegat
             model.typeName = kTitle3
 
             addModel = (model)
-            showAlert("邻近搜索", holder: model.value, btnTitle: "搜索")
+            showAlert(NSLocalizedString("Surrounding search",comment: ""), holder: model.value, btnTitle: NSLocalizedString("Search",comment: ""))
         }
         
         else if title == kTitle4 {
@@ -421,27 +421,27 @@ class VMOneKeyAddCtrl: UIViewController, UITextFieldDelegate, UITableViewDelegat
             addModel = (model)
             
             let warning = """
-            -1 表示全部修改.
-            1,3 表示修改第1个和第3个.
-            1=10 表示第1修改到第10个.
-            1++10&&ABC 表示从第1修改到第10个并内存地址出现尾数包含ABC一律修改.
-            @A 表示修改地址尾数带有A的.
-            ||1024 表示修改数值带有1024的.
-            1,3//+4 表示修改第1个和第3个,并加或者减偏移量
+            -1 means all modifications.
+            1,3 means modifying the 1st and 3rd items.
+            1=10 means the 1st to 10th modification.
+            1++10&&ABC means that from the 1st modification to the 10th, all memory addresses with mantissas including ABC will be modified.
+            @A means modifying the address with A at the end.
+            ||1024 means modifying the value with 1024.
+            1,3//+4 means modifying the 1st and 3rd items, and adding or subtracting the offset
             """
             
-            showPromotion(title: "修改规则", promotion: warning, secondaryTitle: "选择您的修改方式")
+            showPromotion(title: NSLocalizedString("Modify rules",comment: ""), promotion: warning, secondaryTitle: NSLocalizedString("Choose how you want to edit",comment: ""))
                 .appearance(promotionStyle: .color(.systemPink), placeholder: "")
-                .confirm(title: "确定", style: .primary, fill: false, cancelTitle: nil) { [self] indexs in
+                .confirm(title: NSLocalizedString("Sure",comment: ""), style: .primary, fill: false, cancelTitle: nil) { [self] indexs in
                     model.indexs = indexs
-                    showAlert("数值修改", holder: model.value, btnTitle: "修改")
+                    showAlert(NSLocalizedString("Change in value",comment: ""), holder: model.value, btnTitle: NSLocalizedString("Revise",comment: ""))
                     
             }.shouldBecomeFirstResponder()
         }
     }
     
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
-        return "删除"
+        return NSLocalizedString("Delete",comment: "")
     }
 
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
